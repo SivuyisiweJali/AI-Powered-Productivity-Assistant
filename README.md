@@ -2,7 +2,7 @@
 
 Problem statement
 
-This project aims to help a company that uses traditional methods such as using paper diaries to plan and write meeting notes, interaction with customers is limited to calls and paper document and write the same emails multiple times. 
+This dashboard aims to help a company that uses traditional task execution methods such as using paper diaries to plan and write meeting notes, interaction with customers is limited to calls and paper document and write the same emails multiple times. 
 
 Solution overview
 
