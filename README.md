@@ -17,7 +17,8 @@ Tools used
 - Gemini
 
 Prompts used
--Draft a github code for a smart email generator assistant on outlook that generate the following email when the business email (sivuyisiwe.jali@capaciti.org.za) receives an email. The email must be as follow'' Good day Customer, Thank you for contacting Smart Solution. Please ensure the email contains your full name, ID number and cellphone number. An agent will respond with 24 hours. Best regards, Smart Solutions''
+
+-Write a github code for a complete and runnable smart email generator assistant on outlook that generate the following email when the business email (sivuyisiwe.jali@capaciti.org.za) receives an email. The email must be as follow'' Good day Customer, Thank you for contacting Smart Solution. Please ensure the email contains your full name, ID number and cellphone number. An agent will respond with 24 hours. Best regards, Smart Solutions''. Debug, optimise and explain the code and also generate test cases
 -
 
 Live demo link:
