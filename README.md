@@ -14,7 +14,7 @@ This project will help the company automate its processes using AI. The company 
 
 Tools used
 - ChatGPT
-- Gemini
+- Github copilot
 
 Prompts used
 
