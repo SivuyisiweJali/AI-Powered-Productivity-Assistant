@@ -12,6 +12,9 @@ class GraphClient:
 
     def token(self):
         result = self.app.acquire_token_for_client(scopes=SCOPES)
+        if "access_token" not in result:
+            error_msg = result.get("error_description", result.get("error", "Unknown error"))
+            raise Exception(f"Token acquisition failed: {error_msg}")
         return result["access_token"]
 
     def headers(self):
@@ -22,8 +25,12 @@ class GraphClient:
 
     def get_messages(self):
         url = f"https://graph.microsoft.com/v1.0/users/{EMAIL}/mailFolders/inbox/messages?$top=5"
-        return requests.get(url, headers=self.headers()).json()
+        response = requests.get(url, headers=self.headers())
+        response.raise_for_status()
+        return response.json()
 
     def send_mail(self, payload):
         url = f"https://graph.microsoft.com/v1.0/users/{EMAIL}/sendMail"
-        return requests.post(url, headers=self.headers(), json=payload)
+        response = requests.post(url, headers=self.headers(), json=payload)
+        response.raise_for_status()
+        return response
