@@ -1,0 +1,13 @@
+"""
+fastapi
+uvicorn
+openai
+python-dotenv
+azure-cognitiveservices-speech
+msal
+requests
+python-docx
+pydantic
+pytest
+pytest-cov
+"""

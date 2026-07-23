@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.vscode/
+.idea/
+venv/
+.env.local
+coverage/
+htmlcov/
