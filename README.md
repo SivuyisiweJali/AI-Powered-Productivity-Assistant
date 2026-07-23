@@ -19,7 +19,8 @@ Tools used
 Prompts used
 
 -Write a github code for a complete and runnable smart email generator assistant on outlook that generate the following email when the business email (sivuyisiwe.jali@capaciti.org.za) receives an email. The email must be as follow'' Good day Customer, Thank you for contacting Smart Solution. Please ensure the email contains your full name, ID number and cellphone number. An agent will respond with 24 hours. Best regards, Smart Solutions''. Debug, optimise and explain the code and also generate test cases
--
+-Write a Github code for a complete and runnable meeting notes summerizer AI assistant. The summerizer must prioritize financial, technical and human resources key words. The summary must not exceed 200 words. The summary must use simple word. The assistant must have a voice to text summerizer and must be connected to Microsoft teams. 
+- 
 
 Live demo link:
 
