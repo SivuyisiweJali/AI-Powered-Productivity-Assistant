@@ -21,7 +21,7 @@ Prompts used
 
 -Write a Github code for a complete and runnable meeting notes summerizer AI assistant. The summerizer must prioritize financial, technical and human resources key words. The summary must not exceed 200 words. The summary must use simple word. The assistant must have a voice to text summerizer and must be connected to Microsoft teams. 
 
-- Write a Github code for a complete and runnable  AI Chat-box interface. It must be searchable as ''ASK AI'' on all search engines. The chat-box must fast, accurate, and human-like responses while seamlessly integrating into your workflow. It must be able to generate image, text and allow users to upload files. It must be able to answer complex queries and get information from reliable sources like google and google scholars. It must have a professional tone and a human like persona. The responses must be not longer than 3 paragraphs and no shorter than 3 sentences. Never use slang or sound robotic. Ask clarifying question for clarity. Optimize and explain the code.
+-Write a Github code for a complete and runnable  AI Chat-box interface. It must be searchable as ''ASK AI'' on all search engines. The chat-box must fast, accurate, and human-like responses while seamlessly integrating into your workflow. It must be able to generate image, text and allow users to upload files. It must be able to answer complex queries and get information from reliable sources like google and google scholars. It must have a professional tone and a human like persona. The responses must be not longer than 3 paragraphs and no shorter than 3 sentences. Never use slang or sound robotic. Ask clarifying question for clarity. Optimize and explain the code.
 
 Live demo links:
 
