@@ -4,7 +4,7 @@ Problem statement
 
 This dashboard aims to help a company that uses traditional task execution methods such as using paper diaries to plan and write meeting notes, interaction with customers is limited to calls and paper document and write the same emails multiple times. 
 
-Solution overview and key features 
+Solution overview and Key functions
 
 This dashboard will help a company automate its processes using AI. The company will then be able to use the following tools and features:
 - Meeting notes summeriser
@@ -35,7 +35,7 @@ Tools used
 - Gemini
 
 **Installation guide:**
-1. For ASK AI Chatbox
+1. ASK AI CHATBOX
 ASK AI - Professional Workflow Chat Interface
 
 ASK AI is an optimized, high-performance web interface designed for seamless enterprise integration. Powered by Google Gemini 2.5 Flash and Streamlit, it bridges the gap between fast AI execution and real-world workspace utility.
@@ -381,8 +381,171 @@ OUTPUT
 ✓ HR Highlights
 ✓ Searchable Meeting Record
 
+DEMO
+[Smart Outlook Email Generator Assistant – Test Run Demo]
+Time	Screen	Narration
+0:00–0:10	GitHub repository home page	"This is the Smart Outlook Email Generator Assistant. It automatically replies to incoming emails using the Microsoft Graph API and Microsoft Outlook."
+0:10–0:25	Open the project in Visual Studio Code	"The project is organized into modular files, including the main application, email handler, Graph client, configuration, logging, and automated tests."
+0:25–0:40	Show the .env file (mask the secrets)	"The application uses Azure Active Directory credentials stored securely in environment variables rather than hard-coded into the source code."
+0:40–0:55	Open a terminal and run python app.py	"The assistant starts successfully and begins monitoring the Outlook inbox every 30 seconds for new unread emails."
+0:55–1:20	Send a test email from another Outlook account to sivuyisiwe.jali@capaciti.org.za	"A customer sends a new email requesting assistance. The assistant detects the unread message automatically."
+1:20–1:45	Open the sender's mailbox	"Within a few seconds, the customer receives an automatic acknowledgement email."
+1:45–2:05	Open the automatic reply	Read the reply aloud: "Good day Customer. Thank you for contacting Smart Solution. Please ensure the email contains your full name, ID number and cellphone number. An agent will respond within 24 hours. Best regards, Smart Solutions."
+2:05–2:20	Show the original email marked as read	"The assistant marks the processed email as read, preventing duplicate automatic replies."
+2:20–2:35	Open assistant.log	"Each successful reply is recorded in the log file for monitoring, auditing, and troubleshooting."
+2:35–2:50	Run pytest in the terminal	"Finally, the automated unit tests verify that the reply template and core functionality behave as expected."
+2:50–3:00	Return to the GitHub repository	"This concludes the demonstration. The Smart Outlook Email Generator Assistant improves customer response times, reduces manual work, and provides reliable, secure email automation."
 
+[MEETING NOTES GENERATOR ASSISTANT]
 
+Open a terminal.
+Run:
+git clone https://github.com/yourusername/AI-Meeting-Notes-Summariser.git
+cd AI-Meeting-Notes-Summariser
+pip install -r requirements.txt
+python app.py
+
+Narration:
+
+"The application is installed from GitHub, dependencies are loaded, and the AI assistant is started."
+
+Scene 3 – Microsoft Teams Meeting (0:40–1:00)
+
+Screen:
+
+Open Microsoft Teams.
+Join a meeting.
+Click Start Recording (or open a recorded meeting).
+
+Narration:
+
+"The assistant connects to Microsoft Teams and captures the meeting audio for processing."
+
+Scene 4 – Speech-to-Text (1:00–1:20)
+
+Screen:
+Display a live transcript similar to:
+
+Manager:
+The budget for Project Alpha has been approved.
+
+Developer:
+API testing will be completed on Friday.
+
+HR:
+Recruitment for two software engineers starts next week.
+
+Narration:
+
+"Speech is automatically converted into text using an AI speech recognition model."
+
+Scene 5 – AI Processing (1:20–1:45)
+
+Screen:
+
+Processing Transcript...
+
+✔ Detecting Financial Keywords
+✔ Detecting Technical Keywords
+✔ Detecting HR Keywords
+✔ Extracting Decisions
+✔ Identifying Action Items
+
+Generating Summary...
+
+Narration:
+
+"The AI analyses the transcript, prioritises financial, technical, and HR topics, and extracts decisions and action items."
+
+Scene 6 – Final Summary (1:45–2:20)
+
+Screen:
+
+Meeting Summary
+
+• Budget approved for Project Alpha.
+• API testing completes Friday.
+• HR recruiting two software engineers.
+• Security testing begins Monday.
+
+Action Items
+
+John
+- Complete API testing
+- Friday
+
+Sarah
+- Recruit engineers
+- Next Week
+
+David
+- Prepare budget report
+- Monday
+
+Narration:
+
+"Within seconds, the assistant produces a concise summary, highlights key decisions, and assigns action items with responsible team members and deadlines."
+
+Scene 7 – Save & Email (2:20–2:40)
+
+Screen:
+
+✔ Summary Saved
+
+✔ Email Sent
+
+meeting_summary.pdf
+
+meeting_summary.docx
+
+Narration:
+
+"The summary is saved and automatically shared with meeting participants."
+
+Scene 8 – Closing (2:40–3:00)
+
+Screen:
+Return to the GitHub repository showing:
+
+README
+Source code
+Test cases
+Workflow diagram
+
+Narration:
+
+"The AI Meeting Notes Summariser improves productivity by automating meeting documentation, reducing manual effort, and ensuring important discussions, decisions, and action items are accurately captured. Thank you for watching."
+
+[ASK AI CHATBOX]
+
+|  SCENE 1: Local Terminal Launch                                           |
+|  ▶ user$ streamlit run app.py                                            |
+|  ✔ "Running on http://localhost:8501"                                    |
++--------------------------------------------------------------------------+
+                                     │
+                                     ▼
++--------------------------------------------------------------------------+
+
+|  SCENE 2: The Core Workspace Interface                                   |
+|  💻 Sleek Dark/Light layout labeled "🤖 ASK AI Workspace"                |
+|  📎 Sidebar showing active file uploader drop-zone                       |
++--------------------------------------------------------------------------+
+                                     │
+                                     ▼
++--------------------------------------------------------------------------+
+
+|  SCENE 3: Multimodal Upload Demonstration                                |
+|  📁 Drag-and-drop a data file or image into the sidebar                  |
+|  ✔ Alert banner displays: "Successfully attached: document.txt"         |
++--------------------------------------------------------------------------+
+                                     │
+                                     ▼
++--------------------------------------------------------------------------+
+
+|  SCENE 4: Live Scholar Grounding & Query Processing                      |
+|  💬 User enters a highly complex, academic query                         |
+|  ⏳ Real-time streaming response loads under 2 seconds                    |
++--------------------------------------------------------------------------+
 
 
 Tools,workflow and presentation: 
