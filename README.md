@@ -32,7 +32,7 @@ Explanation of features and impact:
 
 
 
-Tools and workflow: 
-https://capeitinitiative-my.sharepoint.com/:p:/g/personal/sivuyisiwe_jali_capaciti_org_za/IQAyRrkHwucOSo6E5wrMtKNVARbAJvDgVwJNlxSL4HMPEyg
+Tools,workflow and presentation: 
+[https://capeitinitiative-my.sharepoint.com/:p:/g/personal/sivuyisiwe_jali_capaciti_org_za/IQAyRrkHwucOSo6E5wrMtKNVARbAJvDgVwJNlxSL4HMPEyg](https://capeitinitiative-my.sharepoint.com/:p:/g/personal/sivuyisiwe_jali_capaciti_org_za/IQBnznVl79bbQokm96Xyj0sZAQo-f1bgQ0mO1yLrXDfYhro)
 
 
