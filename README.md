@@ -4,12 +4,23 @@ Problem statement
 
 This dashboard aims to help a company that uses traditional task execution methods such as using paper diaries to plan and write meeting notes, interaction with customers is limited to calls and paper document and write the same emails multiple times. 
 
-Solution overview
+Solution overview and key features 
 
-This dashboard will help a company automate its processes using AI. The company will then be able to use the following core features:
+This dashboard will help a company automate its processes using AI. The company will then be able to use the following tools and features:
 - Meeting notes summeriser
+  1. Speach to text conversion
+  2. Financial key word detection
+  3. Technical key words detection
+  4. Human resources key words detection
 - Smart email generator
+  1. Automatic reply
+  2. Professional email template
+  3. 24 hour response notice 
 - AI Chatbox Interface
+  1. 24/7 availability
+  2. Natural language processing
+  3. Instant responses
+  4. Personalised responses
 
 The purpuse of the features is to: 
 - Save time by automating repetitive tasks
